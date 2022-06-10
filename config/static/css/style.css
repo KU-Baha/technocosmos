@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    background-size: 110%;
+    background-repeat: no-repeat;
+} */
+
+
+
+
+.logo{
+    height: 100px;
+    width: 140px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header__planets{
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+}
+.planet_link{
+    text-decoration: none;
+    padding: 15px 10px;
+    font-size: small;
+    height: 20px;
+    font: white;
+}
+
+.planet_link:hover{
+    border-bottom: white solid 2px;
+}
+
+#header{
+    animation-name: header;
+    animation-duration: 2s;
+    position: fixed;
+    z-index: 1;
+    margin: 0 40px;
+    margin: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+@keyframes header {
+    0% {
+        margin: 0;
+    }
+    20% {
+        max-resolution: 1;
+    }   
+}
+
+
+.header__navbar{
+    margin: 20px 20px;
+}
+
+.link{
+    margin: 10px 10px;
+    display: inline;
+    margin-top: 500px;
+    font-family: "Nexa", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 102%;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: #ffffff 1px solid;
+}
+
+.one_planet{
+    height: 450px;
+    width:  400px;
+    border: #ffffff solid 2px;
+    border-radius: 40px;
+}
+
+.planet_img{
+    padding: 10px 20px;
+    height: 200px;
+    width: 350px;
+}
+.one_planet__info{
+    padding: 10px 20px;
+}
+.info__title{
+    text-align: center;
+    color: white;
+}
+.info__description{
+    text-align: center;
+    color: white;
+}
+.planet_bg{
+    height: 850px;
+    width: 1440px;
+}
+.title_planet{
+    color: white;
+}
+.planet_bg{
+    position: relative;
+    /* height: 250px; */
+}
+.info{
+    display: flex;
+    top: 550px;
+    left: 100px;
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    height:0;
+}
+.name{
+    
+    align-items: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    padding: 90px 30px;
+}
+
+.decs{
+    padding: 150px 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+
+}

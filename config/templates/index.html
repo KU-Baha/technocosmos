@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Back Sila</title>
+</head>
+<body class="header__logo">
+    <header id="header" class="container">
+        <div class="header__logo">
+            <img src="{% static 'img/logo1.png' %}" alt="" class="logo">
+        </div>
+        <div class="header__planets">
+            <div class="planet_link">
+                <a href="#">
+                <h1 class="title_planet">Earth</h1></a>
+            </div>
+            <div class="planet_link">
+                <a href="#mercury">
+                <h1 class="title_planet">Mercury</h1></a>
+            </div>
+            <div class="planet_link">
+                <a href="#Venus">
+                <h1 class="title_planet">Venus</h1></a>
+            </div>
+           <div class="planet_link">
+            <a href="#Mars">
+
+                <h1 class="title_planet">Mars</h1></a>
+            </div>
+            <div class="planet_link">
+                <a href="#Jupiter">
+                <h1 class="title_planet">Jupiter</h1></a>
+            </div>
+            <div class="planet_link">
+                <a href="#Saturn">
+                <h1 class="title_planet">Saturn</h1></a>
+            </div>
+            <div class="planet_link">
+                <a href="#Uranus">
+                    <h1 class="title_planet">Uranus</h1></a>
+            </div>
+            <div class="planet_link">
+                <a href="#Neptune">
+                    <h1 class="title_planet">Neptune</h1></a>
+            </div>
+        </div>
+        <div class="header__navbar">
+            <p class="link">Login</p>
+            <p class="link">Register</p>
+        </div>
+    </header>
+    <section class="planets container">
+        <div class="planet_bg">
+            <div class="info">
+                <h1 class="name">Earth</h1>
+                <p class="decs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo libero eligendi hic voluptatibus dignissimos labore quia beatae eve</p>
+            </div>
+            <img src="{% static 'img/bg.png' %}" alt="" class="planet_bg">
+        </div>
+        
+    </section>
+</body>
+</html>
