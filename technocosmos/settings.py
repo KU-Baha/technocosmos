@@ -141,3 +141,7 @@ SPACE_OBJECT_TYPE = (
     ("planet", "Планета"),
     ("satellite", "Спутник"),
 )
+
+import django_heroku
+
+django_heroku.settings(locals())
